@@ -1,1 +1,14 @@
+(gdb) b main
+Breakpoint 1 at 0x40146e: file problem01.c, line 6.
+(gdb) r
+Starting program: C:\Users\S kavya\C_activity\set01/a.exe 
+[New Thread 13468.0x2104]
+[New Thread 13468.0x7e8]
 
+Breakpoint 1, main () at problem01.c:6
+6           printf("Kavya");
+(gdb) s
+Kavya7      return 0;
+(gdb) s
+8       }
+(gdb)
