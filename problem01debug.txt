@@ -1,0 +1,17 @@
+(gdb) b main
+Breakpoint 1 at 0x40146e: file .\problem01.c, line 6.
+(gdb) r
+Starting program: C:\Users\S kavya\C_activity\set01/a.exe
+[New Thread 26628.0x5d7c]
+
+Breakpoint 1, main () at .\problem01.c:6
+6           printf("Kavya");
+(gdb) n
+[New Thread 26628.0x3a20]
+Kavya7      return 0;
+(gdb) n
+8       }
+(gdb) n
+0x00401288 in __register_frame_info ()
+(gdb)
+ *  History restored 
